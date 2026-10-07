@@ -27,10 +27,10 @@ MailMate AI eliminates the friction of writing repetitive email replies. It inje
 
 ```
 ┌──────────────────┐      HTTP (REST)      ┌───────────────────┐      API call      ┌────────────────┐
-│  Chrome Extension │ ───────────────────▶ │  Spring Boot API   │ ─────────────────▶ │  Gemini API    │
-│  (Gmail DOM +     │ ◀─────────────────── │  (reply generation  │ ◀───────────────── │  (Google AI)   │
-│   content script) │     generated reply   │   service layer)    │    AI response      │                │
-└──────────────────┘                       └───────────────────┘                     └────────────────┘
+│  Chrome Extension│ ───────────────────▶ │  Spring Boot API  │ ─────────────────▶ │  Gemini API    │
+│  (Gmail DOM +    │ ◀─────────────────── │ (reply generation │ ◀───────────────── │  (Google AI)   │
+│   content script)│     generated reply   │   service layer)  │    AI response     │                │
+└──────────────────┘                       └───────────────────┘                    └────────────────┘
 ```
 
 1. The extension injects a **"Generate Reply"** button into Gmail's reply toolbar.
@@ -140,12 +140,3 @@ Open any email → click **Reply** → select a tone → click **Generate Reply*
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](../../issues) or open a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Mayank Pimpale**
-[LinkedIn](https://linkedin.com/in/mayank) · [GitHub](https://github.com/mayank)
