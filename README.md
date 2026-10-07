@@ -81,10 +81,6 @@ Open an email → Reply → Select tone → Generate reply.
 API credentials are stored using environment variables
 and are not included in the repository.
 
-## 📸 Demo
-
-[GIF / screenshots]
-
 ## 🔮 Future Improvements
 
 - Conversation-aware reply generation
