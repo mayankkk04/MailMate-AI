@@ -6,13 +6,12 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?logo=springboot)
 ![Gemini API](https://img.shields.io/badge/Google-Gemini%20API-blue?logo=google)
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-yellow?logo=googlechrome)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
 ## 📖 Overview
 
-MailMate AI eliminates the friction of writing repetitive email replies. It injects an AI-powered "Generate Reply" option directly into the Gmail compose window via a Chrome Extension, calls a Spring Boot backend that talks to Google's Gemini API, and inserts a tone-matched draft straight into the reply box — no copy-pasting, no context switching.
+MailMate AI eliminates the friction of writing repetitive email replies. It injects an AI-powered "Reply with MailMate" option directly into the Gmail compose window via a Chrome Extension, calls a Spring Boot backend that talks to Google's Gemini API, and inserts a tone-matched draft straight into the reply box — no copy-pasting, no context switching.
 
 ## 🚀 Features
 
@@ -135,7 +134,6 @@ Open any email → click **Reply** → select a tone → click **Generate Reply*
 - [ ] Streaming responses for lower perceived latency
 - [ ] User-defined custom tones
 - [ ] Reply history and regeneration
-- [ ] Production deployment (Docker + cloud hosting)
 
 ## 🤝 Contributing
 
